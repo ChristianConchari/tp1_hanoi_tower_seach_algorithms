@@ -3,6 +3,12 @@
     "type": "movement",
     "disk": 1,
     "peg_start": 1,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 3,
     "peg_end": 2
   },
   {
@@ -16,12 +22,6 @@
     "disk": 1,
     "peg_start": 2,
     "peg_end": 3
-  },
-  {
-    "type": "movement",
-    "disk": 3,
-    "peg_start": 1,
-    "peg_end": 2
   },
   {
     "type": "movement",
@@ -39,6 +39,120 @@
     "type": "movement",
     "disk": 1,
     "peg_start": 1,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 3,
+    "peg_end": 2
+  },
+  {
+    "type": "movement",
+    "disk": 3,
+    "peg_start": 1,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 2,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 3,
+    "peg_end": 1
+  },
+  {
+    "type": "movement",
+    "disk": 2,
+    "peg_start": 2,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 1,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 3,
+    "peg_end": 2
+  },
+  {
+    "type": "movement",
+    "disk": 2,
+    "peg_start": 3,
+    "peg_end": 1
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 2,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 3,
+    "peg_end": 1
+  },
+  {
+    "type": "movement",
+    "disk": 3,
+    "peg_start": 3,
+    "peg_end": 2
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 1,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 3,
+    "peg_end": 2
+  },
+  {
+    "type": "movement",
+    "disk": 2,
+    "peg_start": 1,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 2,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 3,
+    "peg_end": 1
+  },
+  {
+    "type": "movement",
+    "disk": 2,
+    "peg_start": 3,
+    "peg_end": 2
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 1,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 3,
     "peg_end": 2
   },
   {
@@ -55,9 +169,39 @@
   },
   {
     "type": "movement",
+    "disk": 1,
+    "peg_start": 3,
+    "peg_end": 1
+  },
+  {
+    "type": "movement",
     "disk": 2,
     "peg_start": 2,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 1,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 3,
+    "peg_end": 2
+  },
+  {
+    "type": "movement",
+    "disk": 2,
+    "peg_start": 3,
     "peg_end": 1
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 2,
+    "peg_end": 3
   },
   {
     "type": "movement",
@@ -75,6 +219,12 @@
     "type": "movement",
     "disk": 1,
     "peg_start": 1,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 3,
     "peg_end": 2
   },
   {
@@ -88,12 +238,330 @@
     "disk": 1,
     "peg_start": 2,
     "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 3,
+    "peg_end": 1
+  },
+  {
+    "type": "movement",
+    "disk": 2,
+    "peg_start": 3,
+    "peg_end": 2
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 1,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 3,
+    "peg_end": 2
+  },
+  {
+    "type": "movement",
+    "disk": 3,
+    "peg_start": 3,
+    "peg_end": 1
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 2,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 3,
+    "peg_end": 1
+  },
+  {
+    "type": "movement",
+    "disk": 2,
+    "peg_start": 2,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 1,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 3,
+    "peg_end": 2
+  },
+  {
+    "type": "movement",
+    "disk": 2,
+    "peg_start": 3,
+    "peg_end": 1
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 2,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 3,
+    "peg_end": 1
+  },
+  {
+    "type": "movement",
+    "disk": 4,
+    "peg_start": 3,
+    "peg_end": 2
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 1,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 3,
+    "peg_end": 2
+  },
+  {
+    "type": "movement",
+    "disk": 2,
+    "peg_start": 1,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 2,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 3,
+    "peg_end": 1
+  },
+  {
+    "type": "movement",
+    "disk": 2,
+    "peg_start": 3,
+    "peg_end": 2
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 1,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 3,
+    "peg_end": 2
+  },
+  {
+    "type": "movement",
+    "disk": 3,
+    "peg_start": 1,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 2,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 3,
+    "peg_end": 1
+  },
+  {
+    "type": "movement",
+    "disk": 2,
+    "peg_start": 2,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 1,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 3,
+    "peg_end": 2
+  },
+  {
+    "type": "movement",
+    "disk": 2,
+    "peg_start": 3,
+    "peg_end": 1
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 2,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 3,
+    "peg_end": 1
+  },
+  {
+    "type": "movement",
+    "disk": 3,
+    "peg_start": 3,
+    "peg_end": 2
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 1,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 3,
+    "peg_end": 2
+  },
+  {
+    "type": "movement",
+    "disk": 2,
+    "peg_start": 1,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 2,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 3,
+    "peg_end": 1
+  },
+  {
+    "type": "movement",
+    "disk": 2,
+    "peg_start": 3,
+    "peg_end": 2
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 1,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 3,
+    "peg_end": 2
   },
   {
     "type": "movement",
     "disk": 5,
     "peg_start": 1,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 2,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 3,
+    "peg_end": 1
+  },
+  {
+    "type": "movement",
+    "disk": 2,
+    "peg_start": 2,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 1,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 3,
     "peg_end": 2
+  },
+  {
+    "type": "movement",
+    "disk": 2,
+    "peg_start": 3,
+    "peg_end": 1
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 2,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 3,
+    "peg_end": 1
+  },
+  {
+    "type": "movement",
+    "disk": 3,
+    "peg_start": 2,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 1,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 3,
+    "peg_end": 2
+  },
+  {
+    "type": "movement",
+    "disk": 2,
+    "peg_start": 1,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 2,
+    "peg_end": 3
   },
   {
     "type": "movement",
@@ -111,6 +579,12 @@
     "type": "movement",
     "disk": 1,
     "peg_start": 1,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 3,
     "peg_end": 2
   },
   {
@@ -127,9 +601,39 @@
   },
   {
     "type": "movement",
+    "disk": 1,
+    "peg_start": 3,
+    "peg_end": 1
+  },
+  {
+    "type": "movement",
     "disk": 2,
     "peg_start": 2,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 1,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 3,
+    "peg_end": 2
+  },
+  {
+    "type": "movement",
+    "disk": 2,
+    "peg_start": 3,
     "peg_end": 1
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 2,
+    "peg_end": 3
   },
   {
     "type": "movement",
@@ -140,13 +644,19 @@
   {
     "type": "movement",
     "disk": 4,
-    "peg_start": 3,
-    "peg_end": 2
+    "peg_start": 2,
+    "peg_end": 3
   },
   {
     "type": "movement",
     "disk": 1,
     "peg_start": 1,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 3,
     "peg_end": 2
   },
   {
@@ -160,12 +670,42 @@
     "disk": 1,
     "peg_start": 2,
     "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 3,
+    "peg_end": 1
+  },
+  {
+    "type": "movement",
+    "disk": 2,
+    "peg_start": 3,
+    "peg_end": 2
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 1,
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 3,
+    "peg_end": 2
   },
   {
     "type": "movement",
     "disk": 3,
     "peg_start": 1,
-    "peg_end": 2
+    "peg_end": 3
+  },
+  {
+    "type": "movement",
+    "disk": 1,
+    "peg_start": 2,
+    "peg_end": 3
   },
   {
     "type": "movement",
@@ -176,42 +716,6 @@
   {
     "type": "movement",
     "disk": 2,
-    "peg_start": 3,
-    "peg_end": 2
-  },
-  {
-    "type": "movement",
-    "disk": 1,
-    "peg_start": 1,
-    "peg_end": 2
-  },
-  {
-    "type": "movement",
-    "disk": 6,
-    "peg_start": 1,
-    "peg_end": 3
-  },
-  {
-    "type": "movement",
-    "disk": 1,
-    "peg_start": 2,
-    "peg_end": 3
-  },
-  {
-    "type": "movement",
-    "disk": 2,
-    "peg_start": 2,
-    "peg_end": 1
-  },
-  {
-    "type": "movement",
-    "disk": 1,
-    "peg_start": 3,
-    "peg_end": 1
-  },
-  {
-    "type": "movement",
-    "disk": 3,
     "peg_start": 2,
     "peg_end": 3
   },
@@ -219,162 +723,6 @@
     "type": "movement",
     "disk": 1,
     "peg_start": 1,
-    "peg_end": 2
-  },
-  {
-    "type": "movement",
-    "disk": 2,
-    "peg_start": 1,
-    "peg_end": 3
-  },
-  {
-    "type": "movement",
-    "disk": 1,
-    "peg_start": 2,
-    "peg_end": 3
-  },
-  {
-    "type": "movement",
-    "disk": 4,
-    "peg_start": 2,
-    "peg_end": 1
-  },
-  {
-    "type": "movement",
-    "disk": 1,
-    "peg_start": 3,
-    "peg_end": 1
-  },
-  {
-    "type": "movement",
-    "disk": 2,
-    "peg_start": 3,
-    "peg_end": 2
-  },
-  {
-    "type": "movement",
-    "disk": 1,
-    "peg_start": 1,
-    "peg_end": 2
-  },
-  {
-    "type": "movement",
-    "disk": 3,
-    "peg_start": 3,
-    "peg_end": 1
-  },
-  {
-    "type": "movement",
-    "disk": 1,
-    "peg_start": 2,
-    "peg_end": 3
-  },
-  {
-    "type": "movement",
-    "disk": 2,
-    "peg_start": 2,
-    "peg_end": 1
-  },
-  {
-    "type": "movement",
-    "disk": 1,
-    "peg_start": 3,
-    "peg_end": 1
-  },
-  {
-    "type": "movement",
-    "disk": 5,
-    "peg_start": 2,
-    "peg_end": 3
-  },
-  {
-    "type": "movement",
-    "disk": 1,
-    "peg_start": 1,
-    "peg_end": 2
-  },
-  {
-    "type": "movement",
-    "disk": 2,
-    "peg_start": 1,
-    "peg_end": 3
-  },
-  {
-    "type": "movement",
-    "disk": 1,
-    "peg_start": 2,
-    "peg_end": 3
-  },
-  {
-    "type": "movement",
-    "disk": 3,
-    "peg_start": 1,
-    "peg_end": 2
-  },
-  {
-    "type": "movement",
-    "disk": 1,
-    "peg_start": 3,
-    "peg_end": 1
-  },
-  {
-    "type": "movement",
-    "disk": 2,
-    "peg_start": 3,
-    "peg_end": 2
-  },
-  {
-    "type": "movement",
-    "disk": 1,
-    "peg_start": 1,
-    "peg_end": 2
-  },
-  {
-    "type": "movement",
-    "disk": 4,
-    "peg_start": 1,
-    "peg_end": 3
-  },
-  {
-    "type": "movement",
-    "disk": 1,
-    "peg_start": 2,
-    "peg_end": 3
-  },
-  {
-    "type": "movement",
-    "disk": 2,
-    "peg_start": 2,
-    "peg_end": 1
-  },
-  {
-    "type": "movement",
-    "disk": 1,
-    "peg_start": 3,
-    "peg_end": 1
-  },
-  {
-    "type": "movement",
-    "disk": 3,
-    "peg_start": 2,
-    "peg_end": 3
-  },
-  {
-    "type": "movement",
-    "disk": 1,
-    "peg_start": 1,
-    "peg_end": 2
-  },
-  {
-    "type": "movement",
-    "disk": 2,
-    "peg_start": 1,
-    "peg_end": 3
-  },
-  {
-    "type": "movement",
-    "disk": 1,
-    "peg_start": 2,
     "peg_end": 3
   }
 ]
