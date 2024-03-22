@@ -1,13 +1,24 @@
 # Preguntas a resolver, caso Torres de Hanoi
+
 ## ¿Cuáles son los PEAS de este problema? (Performance, Environment, Actuators, Sensors)
+
 ### Performance
-Posición de los discos en la torre de destino.
+- **Rápido:** Capaz de encontrar una solución en el menor tiempo posible.
+- **Eficiente:**: Usa el menor número de movimientos posibles para alcanzar la solución. La eficiencia puede medirse por cuán cercano está el agente a alcanzar este ideal, siendo este un mínimo teórico de movimientos necesarios para resolver el juego ($2^n - 1$, donde $n$ es el número de discos).
+- **Preciso:** Mueve los discos de acuerdo a las reglas del juego. Moviendo un disco a la vez y sin colocar un disco más grande sobre uno más chico.
+- **Completo:** Encuentra una solución si esta existe.
+- **Mutable:** Puede resolver el problema con diferentes números de discos (contando con la restricción de la cantidad de discos que puede manejar la máquina de procesamiento).
+
 ### Environment
-Las varillas de origen, auxiliar y destino. También los discos.
+- **Varillas:** El espacio físico o virtual en el que se juega el juego. En este caso, las varillas de origen, auxiliar y destino.
+- **Discos:** Los discos que se deben mover de una varilla a otra. Donde cada disco tiene un tamaño único, lo que afecta dónde puede ser colocado.
+
 ### Actuators
-Mover un disco de una varilla a otra.
+- **Movimiento de los discos:** La única acción concreta realizada durante el juego, mover un disco de una varilla a otra siguiendo las reglas del juego. Función de software de movimiento de un disco.
+
 ### Sensors
-Verificar si un disco puede ser movido a una varilla, cumpliendo las reglas del juego.
+- **Posición de los discos en las varillas:** Información sobre la posición actual de los discos en las varillas. Esta información es necesaria para determinar cuál es el siguiente movimiento a realizar. Función de software de lectura de la posición de los discos.
+
 ## ¿Cuáles son las propiedades del entorno de trabajo?
 Se trata de un entorno de trabajo totalmente observable, determinístico, secuencial y estático.
 ## En el contexto de este problema, establezca cuáles son los: estado, espacio de estados, árbol de búsqueda, nodo de búsqueda, objetivo, acción y frontera.

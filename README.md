@@ -1,6 +1,6 @@
 # Hanoi Tower Search Algorithms
 
-This repository contains the implementation of the Hanoi Tower problem using search algorithms. The code in the `hanoi_tower` directory was extracted from the [intro_ia](https://github.com/FIUBA-Posgrado-Inteligencia-Artificial/intro_ia/tree/main/clase2/hanoi_tower) repository. Part of course material from Introduction to Aritificial Intelligence (CEIA - FIUBA).
+This repository contains the implementation of the Hanoi Tower problem using search algorithms. The code in the `hanoi_tower` directory was extracted from the [intro_ia](https://github.com/FIUBA-Posgrado-Inteligencia-Artificial/intro_ia/tree/main/clase2/hanoi_tower) repository. Part of course material from Introduction to Artificial Intelligence (CEIA - FIUBA).
 
 ## Table of Contents
 
