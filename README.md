@@ -16,7 +16,7 @@ La implementación experimental para encontrar el tiempo, la memoria y el númer
 
 ## Preparación
 
-Para usar el notebook `hanoi_search_notebook.ipynb`, es necesario instalar las siguientes librerías:
+Para usar el notebook `hanoi_search_notebook.ipynb` y la simulación es necesario instalar las siguientes librerías:
 
 ```bash
 pip install -r requirements.txt
