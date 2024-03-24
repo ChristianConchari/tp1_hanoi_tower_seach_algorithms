@@ -14,10 +14,10 @@
 - **Discos:** Los discos que se deben mover de una varilla a otra. Donde cada disco tiene un tamaño único, lo que afecta dónde puede ser colocado.
 
 ### Actuators
-- **Movimiento de los discos:** La única acción concreta realizada durante el juego, mover un disco de una varilla a otra siguiendo las reglas del juego. Función de software de movimiento de un disco.
+- **Movimiento de los discos:** La única acción concreta realizada durante el juego, mover un disco de una varilla a otra siguiendo las reglas del juego. 
 
 ### Sensors
-- **Posición de los discos en las varillas:** Información sobre la posición actual de los discos en las varillas. Esta información es necesaria para determinar cuál es el siguiente movimiento a realizar. Función de software de lectura de la posición de los discos.
+- **Posición de los discos en las varillas:** Información sobre la posición actual de los discos en las varillas. Esta información es necesaria para determinar cuál es el siguiente movimiento a realizar.
 
 ## 2. ¿Cuáles son las propiedades del entorno de trabajo?
 Se trata de un entorno con las siguientes propiedades:
@@ -32,10 +32,10 @@ Se trata de un entorno con las siguientes propiedades:
 ## 3. En el contexto de este problema, establezca cuáles son los: estado, espacio de estados, árbol de búsqueda, nodo de búsqueda, objetivo, acción y frontera.
 
 ### Estado
-La disposición específica de los discos en las varillas en un momento dado.
+La disposición específica de los discos en las varillas en un momento dado. Desde la perspectiva de implementación es la clase `StatesHanoi`
 
 ### Espacio de estados
-Todas las posibles posiciones de los discos en las varillas. Se trata de un espacio de estados finito, ya que el número de discos y varillas es limitado.
+Todas las posibles posiciones de los discos en las varillas. Se trata de un espacio de estados finito, ya que el número de discos y varillas es limitado. Para el problema de las Torres de Hanoi, el espacio de estados es $3^n$, donde $n$ es el número de discos. En este caso $n=5$, por lo que el espacio de estados es $3^5 = 243$.
 
 ### Árbol de búsqueda
 Una representación de todas las posibles secuencias de movimientos desde el estado inicial hasta el estado objetivo. 
@@ -47,7 +47,7 @@ Un nodo en el árbol de búsqueda que representa un estado específico dentro de
 El estado objetivo es cuando todos los discos están en la varilla de destino, en orden de tamaño decreciente.
 
 ### Acción
-Mover un disco de una varilla a otra. Solamente válida si se cumplen las reglas del juego.
+Mover un disco de una varilla a otra. Solamente válida si se cumplen las reglas del juego. Desde la perspectiva de implementación es la clase `ActionHanoi`.
 
 ### Frontera
 Conjunto de todos los nodos que han sido generados, pero no han sido explorados aún. La frontera separa los nodos explorados de los nodos sin explorar, y el algoritmo de búsqueda decide que nodo explorar a continuación. Por ejemplo, en una búsqueda en profundidad, la frontera es una pila de nodos, donde el último nodo en ser agregado es el siguiente en ser explorado.
