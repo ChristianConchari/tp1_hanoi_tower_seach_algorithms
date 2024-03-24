@@ -10,7 +10,7 @@ Este repositorio contiene la implementación del problema de la Torre de Hanoi u
 
 ## Introducción
 
-Las respuestas a las preguntas a resolver se encuentran en el archivo `answers.md`. El código de la implementación de la búsqueda por profundidad primero se encuentra en el archivo `depth_first_search.py`. También se incluyen los archivos json `initial_state.json` y `sequence.json` para la simulación.
+Las respuestas a las preguntas a resolver se encuentran en el archivo [answers.md](answers.md). El código de la implementación de la búsqueda por profundidad primero se encuentra en el archivo [depth_first_search.py](depth_first_search.py). También se incluyen los archivos json `initial_state.json` y `sequence.json` para la simulación.
 
 La implementación experimental para encontrar el tiempo, la memoria y el número de movimientos para resolver el problema de la Torre de Hanoi se encuentra en el notebook `hanoi_search_notebook.ipynb`. 
 
