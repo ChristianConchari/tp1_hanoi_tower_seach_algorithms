@@ -20,23 +20,55 @@
 - **Posición de los discos en las varillas:** Información sobre la posición actual de los discos en las varillas. Esta información es necesaria para determinar cuál es el siguiente movimiento a realizar. Función de software de lectura de la posición de los discos.
 
 ## ¿Cuáles son las propiedades del entorno de trabajo?
-Se trata de un entorno de trabajo totalmente observable, determinístico, secuencial y estático.
+Se trata de un entorno con las siguientes propiedades:
+- **Completamente observable:** Se puede ver la posición de los discos en las varillas en todo momento.
+- **Agente único:** Solo hay un agente que toma decisiones durante el transcurso del juego.
+- **Determinístico:** Las reglas del juego son claras y no hay elementos aleatorios que afecten el resultado.
+- **Secuencial:** El juego se desarrolla en una serie de pasos secuenciales, donde cada movimiento afecta el estado del juego.
+- **Estático:** El entorno no cambia por sí mismo, solo cambia cuando el agente realiza una acción (mover un disco).
+- **Discreto:** Las acciones y estados del juego son discretos, no continuos.
+- **Conocido:** El agente tiene completo conocimiento del entorno y las reglas del juego desde el principio.
+
 ## En el contexto de este problema, establezca cuáles son los: estado, espacio de estados, árbol de búsqueda, nodo de búsqueda, objetivo, acción y frontera.
+
 ### Estado
-Posición de los discos en las varillas.
+La disposición específica de los discos en las varillas en un momento dado.
+
 ### Espacio de estados
-Todas las posibles posiciones de los discos en las varillas.
+Todas las posibles posiciones de los discos en las varillas. Se trata de un espacio de estados finito, ya que el número de discos y varillas es limitado.
+
 ### Árbol de búsqueda
+Una representación de todas las posibles secuencias de movimientos desde el estado inicial hasta el estado objetivo. 
 
 ### Nodo de búsqueda
+Un nodo en el árbol de búsqueda que representa un estado específico dentro del árbol de búsqueda. Cada nodo tiene un estado, un nodo padre, ceros o más nodos hijos.
+
 ### Objetivo
-Mover los 5 discos de la varilla de origen a la varilla de destino, cumpliendo las reglas del juego.
+El estado objetivo es cuando todos los discos están en la varilla de destino, en orden de tamaño decreciente.
+
 ### Acción
-Mover un disco de una varilla a otra.
+Mover un disco de una varilla a otra. Solamente válida si se cumplen las reglas del juego.
+
 ### Frontera
+Conjunto de todos los nodos que han sido generados, pero no han sido explorados aún. La frontera separa los nodos explorados de los nodos sin explorar, y el algoritmo de búsqueda decide que nodo explorar a continuación. Por ejemplo, en una búsqueda en profundidad, la frontera es una pila de nodos, donde el último nodo en ser agregado es el siguiente en ser explorado.
+
 ## ¿Qué complejidad en tiempo y memoria tiene el algoritmo elegido?
--- Completar con los datos recopilados --
+
+El algoritmo elegido es búsqueda por profundidad primero (DFS). La complejidad en tiempo y memoria de este algoritmo es la siguiente:
+
+- **Complejidad en tiempo:** La complejidad en timepo de la búsqueda por profundidad primero esta limitada por el tamaño del espacio de estados. En ese caso, la complejidad es $O(b^m)$, donde $m$ es la profundidad máxima de cualquier nodo, puede ser mucho más grande que el tamaño del espacio de estados, y $b$ es el factor de ramificación, es decir, el número máximo de hijos que puede tener un nodo. 
+
+- **Complejidad en memoria:** La complejidad en memoria de la búsqueda por profundidad primero es $O(bm)$, donde $m$ es la profundidad máxima de cualquier nodo, y $b$ es el factor de ramificación.
+
 ## A nivel implementación, ¿qué tiempo y memoria ocupa el algoritmo? 
--- Completar con los datos recopilados --
-## Si la solución óptima es movimientos con k igual al número de discos. Qué tan lejos está la solución del algoritmo implementado de esta solución óptima (se recomienda correr al menos 10 veces y usar el promedio de trayecto usado).
--- Completar con los datos recopilados --
+
+Se midió a nivel de implementación el tiempo y memoria que ocupa el algoritmo de búsqueda por profundidad primero (DFS) corriendo $n=100$ pruebas para el caso de cinco discos.
+
+- **Tiempo:** El tiempo promedio de ejecución del algoritmo fue de 0.0356 segundos con una desviación estándar de 0.0029 segundos.
+
+- **Memoria:** La memoria promedio utilizada por el algoritmo fue de 0.20 MB con una desviación estándar de 0.0009 MB.
+
+
+## Si la solución óptima es $2^k - 1$ movimientos con $k$ igual al número de discos. Qué tan lejos está la solución del algoritmo implementado de esta solución óptima (se recomienda correr al menos 10 veces y usar el promedio de trayecto usado).
+
+Para el caso de cinco discos, la solución óptima es $2^5 - 1 = 31$ movimientos. Se corrieron $n=100$ pruebas y se obtuvo un promedio de 121 movimientos. Por lo tanto, la solución encontrada por el algoritmo implementado está a 90 movimientos de la solución óptima.
