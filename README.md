@@ -1,6 +1,6 @@
 # Hanoi Tower Search Algorithms
 
-This repository contains the implementation of the Hanoi Tower problem using search algorithms. The code in the `hanoi_tower` directory was extracted from the [intro_ia](https://github.com/FIUBA-Posgrado-Inteligencia-Artificial/intro_ia/tree/main/clase2/hanoi_tower) repository. Part of course material from Introduction to Artificial Intelligence (CEIA - FIUBA).
+Este repositorio contiene la implementación del problema de la Torre de Hanoi usando algoritmos de búsqueda. El código en el directorio hanoi_tower fue extraído del repositorio [intro_ia](https://github.com/FIUBA-Posgrado-Inteligencia-Artificial/intro_ia/tree/main/clase2/hanoi_tower). Parte del material del curso de Introducción a la Inteligencia Artificial (CEIA - FIUBA).
 
 ## Table of Contents
 
@@ -12,7 +12,7 @@ This repository contains the implementation of the Hanoi Tower problem using sea
 
 ## Introduction
 
-In this repository, you will find the implementation of the Hanoi Tower problem using various search algorithms. The goal is to find the optimal solution to move a stack of disks from one peg to another, following the rules of the game.
+Las respuestas a las preguntas a resolver se encuentran en el archivo `answers.md`. El código de la implementación de la búsqueda por profundidad primero se encuentra en el archivo `depth_first_search.py`. También se incluyen los archivos json para la simulación. 
 
 ## Installation
 
