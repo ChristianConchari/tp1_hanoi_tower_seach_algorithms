@@ -32,3 +32,5 @@ Al final del notebook se copian los json para la simulación en el directorio `h
 python simulation_hanoi.py
 ``` 
 
+## Bibliografía
+- Russell, S., & Norvig, P. Artificial Intelligence: A Modern Approach. 3rd ed., Prentice Hall, 2009.
