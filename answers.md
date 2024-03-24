@@ -53,7 +53,7 @@ Mover un disco de una varilla a otra. Solamente válida si se cumplen las reglas
 Conjunto de todos los nodos que han sido generados, pero no han sido explorados aún. La frontera separa los nodos explorados de los nodos sin explorar, y el algoritmo de búsqueda decide que nodo explorar a continuación. Por ejemplo, en una búsqueda en profundidad, la frontera es una pila de nodos, donde el último nodo en ser agregado es el siguiente en ser explorado.
 
 ## 4. Implemente algún método de búsqueda.
-Se eligió implementar el algoritmo de búsqueda por profundidad primero (DFS). La implementación esta en el archivo `depth_first_search.py`.	
+Se eligió implementar el algoritmo de búsqueda por profundidad primero (DFS). La implementación esta en el archivo `depth_first_search.py`.	Se probó con otros métodos como búsqueda en profundidad limitada iterativa (IDDFS), sin embargo, no se logró encontrar un número de pasos mucho más cercano a la solución óptima o al que se alcanza por búsqueda por amchura (BFS), y utilizando mucho más tiempo y memoria; posiblemente se deba por algo que no ví o me falto, en todo caso, los mejores resultados que obtuve son con el presente algoritmo.
 
 ## 5. ¿Qué complejidad en tiempo y memoria tiene el algoritmo elegido?
 
