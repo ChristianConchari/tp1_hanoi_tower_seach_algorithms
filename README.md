@@ -2,22 +2,33 @@
 
 Este repositorio contiene la implementación del problema de la Torre de Hanoi usando algoritmos de búsqueda. El código en el directorio hanoi_tower fue extraído del repositorio [intro_ia](https://github.com/FIUBA-Posgrado-Inteligencia-Artificial/intro_ia/tree/main/clase2/hanoi_tower). Parte del material del curso de Introducción a la Inteligencia Artificial (CEIA - FIUBA).
 
-## Table of Contents
+## Contenidos
 
-- [Introduction](#introduction)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Introducción](#introducción)
+- [Preparación](#preparación)
+- [Ejecución](#ejecución)
 
-## Introduction
+## Introducción
 
-Las respuestas a las preguntas a resolver se encuentran en el archivo `answers.md`. El código de la implementación de la búsqueda por profundidad primero se encuentra en el archivo `depth_first_search.py`. También se incluyen los archivos json para la simulación. 
+Las respuestas a las preguntas a resolver se encuentran en el archivo `answers.md`. El código de la implementación de la búsqueda por profundidad primero se encuentra en el archivo `depth_first_search.py`. También se incluyen los archivos json `initial_state.json` y `sequence.json` para la simulación.
 
-## Installation
+La implementación experimental para encontrar el tiempo, la memoria y el número de movimientos para resolver el problema de la Torre de Hanoi se encuentra en el notebook `hanoi_search_notebook.ipynb`. 
 
-To use this code, you need to have [Python](https://www.python.org/) installed on your machine. Clone this repository and navigate to the `hanoi_tower` directory.
+## Preparación
 
-## Usage
+Para usar el notebook `hanoi_search_notebook.ipynb`, es necesario instalar las siguientes librerías:
 
-To run the program, execute the following command:
+```bash
+pip install -r requirements.txt
+```
+
+## Ejecución
+
+Para ejecutar el notebook `hanoi_search_notebook.ipynb`, se puede usar Jupyter Notebook o Jupyter Lab. También debe considerarse tener el ambiente virtual activado, si se va a usar.
+
+Al final del notebook se copian los json para la simulación en el directorio `hanoi_tower/simulator`. Entonces, para correr la simulación, se debe navegar al directorio `hanoi_tower/simulator` y ejecutar el siguiente comando:
+
+```bash
+python simulation_hanoi.py
+``` 
+
