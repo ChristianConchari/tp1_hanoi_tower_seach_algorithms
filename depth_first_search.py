@@ -39,5 +39,5 @@ def depth_first_search(problem: ProblemHanoi, verbose: bool = False):
     # Return None if no solution is found
     return None
 
-if __name__=="_main__":
+if __name__=="__main__":
     pass
