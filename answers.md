@@ -72,6 +72,6 @@ Se midió a nivel de implementación el tiempo y memoria que ocupa el algoritmo 
 - **Memoria:** La memoria promedio utilizada por el algoritmo fue de 0.20 MB con una desviación estándar de 0.0009 MB.
 
 
-## 7. Si la solución óptima es $2^k - 1$ movimientos con $k$ igual al número de discos. Qué tan lejos está la solución del algoritmo implementado de esta solución óptima (se recomienda correr al menos 10 veces y usar el promedio de trayecto usado).
+## 7. Si la solución óptima es $2^k - 1$ movimientos con $k$ igual al número de discos. ¿Qué tan lejos está la solución del algoritmo implementado de esta solución óptima?
 
 Para el caso de cinco discos, la solución óptima es $2^5 - 1 = 31$ movimientos. Se corrieron $n=100$ pruebas y se obtuvo un promedio de 121 movimientos. Por lo tanto, la solución encontrada por el algoritmo implementado está a 90 movimientos de la solución óptima.
